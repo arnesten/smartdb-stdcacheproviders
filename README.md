@@ -1,6 +1,6 @@
-# smartDb-standardCacheProviders
+# smartdb-stdcacheproviders
 
-Contains inMemoryCacheProvider and nullCacheProvider for [smartDb](https://github.com/arnesten/smartDb).
+Contains inMemoryCacheProvider and nullCacheProvider for [smartdb](https://github.com/arnesten/smartdb).
 Unless you are building your own cache provider for smartDb, you don't need to install this package.
 
 ## License

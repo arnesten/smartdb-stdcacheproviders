@@ -1,8 +1,8 @@
 {
-	"name": "smartDb-standardCacheProviders",
+	"name": "smartdb-stdcacheproviders",
 	"version": "0.0.1",
 	"description": "Standard cache providers for the smartDb library",
-	"keywords": ["smartDb"],
+	"keywords": ["smartdb"],
 	"author": "Calle Arnesten <calle.arnesten@codekick.com>",
 	"main": "./index.js",
 	"dependencies": {
@@ -18,10 +18,10 @@
 	},
     "repository": {
         "type": "git",
-        "url": "https://github.com/arnesten/smartDb-standardCacheProviders"
+        "url": "https://github.com/arnesten/smartdb-stdcacheproviders"
     },
     "bugs": {
-        "url": "https://github.com/arnesten/smartDb-standardCacheProviders/issues"
+        "url": "https://github.com/arnesten/smartdb-stdcacheproviders/issues"
     },
     "license": "MIT"
 }
