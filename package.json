@@ -6,8 +6,7 @@
     "author": "Calle Arnesten <calle.arnesten@codekick.com>",
     "main": "./index.js",
     "dependencies": {
-        "lru-cache": "*",
-        "underscore": "*"
+        "lru-cache": "*"
     },
     "devDependencies": {
         "buster": "*",
