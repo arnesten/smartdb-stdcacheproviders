@@ -1,21 +1,21 @@
 {
-	"name": "smartdb-stdcacheproviders",
-	"version": "0.0.1",
-	"description": "Standard cache providers for the smartDb library",
-	"keywords": ["smartdb"],
-	"author": "Calle Arnesten <calle.arnesten@codekick.com>",
-	"main": "./index.js",
-	"dependencies": {
+    "name": "smartdb-stdcacheproviders",
+    "version": "0.0.1",
+    "description": "Standard cache providers for the smartDb library",
+    "keywords": ["smartdb"],
+    "author": "Calle Arnesten <calle.arnesten@codekick.com>",
+    "main": "./index.js",
+    "dependencies": {
         "lru-cache": "*",
-		"underscore": "*"
-	},
-	"devDependencies": {
-		"buster": "*",
-		"buster-helpers": "https://github.com/arnesten/buster-helpers/archive/master.tar.gz"
-	},
-	"engines": {
-		"node": ">=0.8.0"
-	},
+        "underscore": "*"
+    },
+    "devDependencies": {
+        "buster": "*",
+        "buster-helpers": "https://github.com/arnesten/buster-helpers/archive/master.tar.gz"
+    },
+    "engines": {
+        "node": ">=0.8.0"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/arnesten/smartdb-stdcacheproviders"
