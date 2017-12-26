@@ -1,8 +1,10 @@
 {
     "name": "smartdb-stdcacheproviders",
-    "version": "1.0.1",
+    "version": "5.0.0",
     "description": "Standard cache providers for the smartDb library",
-    "keywords": ["smartdb"],
+    "keywords": [
+        "smartdb"
+    ],
     "author": "Calle Arnesten <calle.arnesten@codekick.com>",
     "main": "./index.js",
     "dependencies": {
