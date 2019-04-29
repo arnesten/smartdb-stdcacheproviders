@@ -8,6 +8,7 @@
     "author": "Calle Arnesten <calle.arnesten@codekick.com>",
     "main": "./index.js",
     "dependencies": {
+        "bocha": "^1.8.2",
         "clone": "^2.1.2"
     },
     "repository": {
