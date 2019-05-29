@@ -65,6 +65,14 @@ module.exports = testCase('inMemoryCacheProvider', {
             clock.tick(2);
             fish = await cache.get('F1');
             assert.equals(fish, null);
+        },
+        'when trying to set old revision that is already cached should keep last revision': async function () {
+            let cache = createCache({ cacheMaxSize: 100 });
+            await cache.set('F1', { name: 'No shark', _rev: '1-ABC' });
+            await cache.set('F1', { name: 'White shark', _rev: '2-ABC' });
+            await cache.set('F1', { name: 'Reef shark', _rev: '1-ABC' });
+            let fish = await cache.get('F1');
+            assert.equals(fish, { name: 'White shark', _rev: '2-ABC' });
         }
     },
     'cacheMaxSize': {
