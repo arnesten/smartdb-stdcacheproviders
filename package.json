@@ -1,6 +1,6 @@
 {
     "name": "smartdb-stdcacheproviders",
-    "version": "7.0.2",
+    "version": "7.0.3",
     "description": "Standard cache providers for the smartDb library",
     "keywords": [
         "smartdb"
