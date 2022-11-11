@@ -1,7 +1,7 @@
 import { assert, fakeClock, testCase } from 'bocha/node.mjs';
-import inMemoryCacheProvider from '../lib/inMemoryCacheProvider.js';
+import InMemoryCacheProvider from '../lib/InMemoryCacheProvider.js';
 
-export default testCase('inMemoryCacheProvider', {
+export default testCase('InMemoryCacheProvider', {
     'cacheMaxAge set': {
         'can get a value that was set': async function () {
             let cache = createCache({ cacheMaxAge: 1000 });
@@ -93,5 +93,5 @@ export default testCase('inMemoryCacheProvider', {
 });
 
 function createCache(entitySettings) {
-    return inMemoryCacheProvider.create(null, entitySettings);
+    return InMemoryCacheProvider(null, entitySettings);
 }

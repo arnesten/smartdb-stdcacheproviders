@@ -1,7 +1,2 @@
-import inMemoryCacheProvider from './lib/inMemoryCacheProvider.js';
-import nullCacheProvider from './lib/nullCacheProvider.js';
-
-export default {
-    inMemoryCacheProvider,
-    nullCacheProvider
-};
+export InMemoryCacheProvider from './lib/InMemoryCacheProvider.js';
+export NullCacheProvider from './lib/NullCacheProvider.js';
