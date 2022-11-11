@@ -1,6 +1,6 @@
 {
     "name": "smartdb-stdcacheproviders",
-    "version": "7.0.3",
+    "version": "7.0.4",
     "description": "Standard cache providers for the smartDb library",
     "keywords": [
         "smartdb"
@@ -9,8 +9,10 @@
     "type": "module",
     "main": "./index.js",
     "dependencies": {
-        "bocha": "^2.1.0",
         "clone": "^2.1.2"
+    },
+    "devDependencies": {
+        "bocha": "^2.1.0"
     },
     "scripts": {
         "test": "node test/runAll.js"
