@@ -1,10 +1,7 @@
-let bocha = require('bocha');
-let testCase = bocha.testCase;
-let assert = bocha.assert;
-let fakeClock = bocha.fakeClock;
-let inMemoryCacheProvider = require('../lib/inMemoryCacheProvider.js');
+import { assert, fakeClock, testCase } from 'bocha/node.mjs';
+import inMemoryCacheProvider from '../lib/inMemoryCacheProvider.js';
 
-module.exports = testCase('inMemoryCacheProvider', {
+export default testCase('inMemoryCacheProvider', {
     'cacheMaxAge set': {
         'can get a value that was set': async function () {
             let cache = createCache({ cacheMaxAge: 1000 });
