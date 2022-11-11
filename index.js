@@ -1,2 +1,2 @@
-export InMemoryCacheProvider from './lib/InMemoryCacheProvider.js';
-export NullCacheProvider from './lib/NullCacheProvider.js';
+export inMemoryCacheProvider from './lib/inMemoryCacheProvider.js';
+export nullCacheProvider from './lib/nullCacheProvider.js';
